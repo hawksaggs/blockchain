@@ -22,7 +22,7 @@ describe('Blockchain', () => {
 
     it('validates a valid chain', () => {
         bc2.addBlock('foo');
-
+        
         expect(bc.isValidChain(bc2.chain)).toBe(true);
     });
 
